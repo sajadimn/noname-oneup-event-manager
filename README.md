@@ -1,4 +1,4 @@
-# Event Manager Unity Package
+Event Manager Unity Package
 ===
 
 ## Description
@@ -7,7 +7,7 @@ This package contains a utility that makes it possible to send and receive local
 ## How to use
 First, to fix Git Dependencies, copy the link below and add it to your project via Unity Package Manager: [Installing from a Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 ```
-https://github.com/sajadimn/noname-oneup-singleton.git
+https://github.com/sajadimn/noname-oneup-upm-git-dependency-resolver.git
 ```
 Then, copy the link below and add it to your project via Unity Package Manager: [Installing from a Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 ```
@@ -48,7 +48,8 @@ Whenever data changes, you can send the data through the event manager, which th
 ```
 
 ✅️ Call the RegisterGlobalEvent function of the EventManager class to receive data
-✅️ Call the RemoveGlobalEvent function of the EventManager class in the OnDestroy function and also wherever you want to remove the callback(this is necessary)
+
+✅️ Call the RemoveGlobalEvent function of the EventManager class in the OnDestroy function and also wherever you want to remove the callback (this is necessary)
 ```c#
   using Noname.OneUp.Packages.EventManager;
 
@@ -79,7 +80,7 @@ Whenever data changes, you can send the data through the event manager, which th
 ## License
 
 * MIT
-* [Singleton](https://github.com/sajadimn/noname-oneup-event-manager) by Sajad Imani
+* [Event Manager](https://github.com/sajadimn/noname-oneup-event-manager) by Sajad Imani
 
 ## Author
 
