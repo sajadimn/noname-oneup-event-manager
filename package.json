@@ -9,7 +9,7 @@
   "description": "This package contains a utility that makes it possible to send and receive local events with any type of data in your Unity project.",
   "dependencies": {},
   "gitDependencies": {
-    "noname.oneup.singleton.mono-singleton": "https://github.com/sajadimn/noname-oneup-singleton.git"
+    "noname-oneup-singleton": "https://github.com/sajadimn/noname-oneup-singleton.git"
   },
   "samples": [],
   "hideInEditor": true,
